@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600&family=Anek+Malayalam&family=Open+Sans:wght@300;400;600&family=Oswald:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 *{
-    margin:0;
-    padding: 0;
     box-sizing: border-box;
 }
 a{
@@ -39,7 +37,7 @@ a{
 .menu-flex nav ul li:not(:last-child){
     margin-right: 52px;
 }
-.menu-flex nav ul li:hover{
+.menu-flex nav ul li a:hover{
     cursor: pointer;
     color:#0052CC;
     text-decoration: underline;
@@ -87,7 +85,8 @@ a{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .products-board{
-padding-top: 88px;
+    padding-top: 88px;
+    margin-bottom: 233px;
 }
 .products-board h3{
     font-family: 'Poppins';
@@ -186,7 +185,6 @@ footer{
     font-family: 'Poppins';
     height: 249px;
     background: #0052CC;
-    margin-top: 233px;
     padding-top: 50px;    
 }
 footer .container{
@@ -251,7 +249,10 @@ footer .container .social-icons{
 footer .container .social-icons a:not(:last-child){
     margin-right: 17px;
 }
-
-
-
-
+.about-container{
+    max-width:1213px;
+    width:80%;
+    height:858px;
+    margin: 0 auto;
+    border:1px solid green;
+}
