@@ -210,8 +210,9 @@ footer .container .footer-menu ul:not(:last-child){
 footer .container .footer-menu ul li{
     margin-bottom: 13px;
     list-style: none;
+    color:#fff;
 }
-footer .container .footer-menu ul li::first-letter{
+footer .container .footer-menu ul li a::first-letter{
     text-transform: capitalize;
 }
 footer .container .footer-menu ul li a {
