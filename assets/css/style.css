@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600&family=Anek+Malayalam&family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600&family=Anek+Malayalam&family=Open+Sans:wght@300;400;600&family=Oswald:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#000000;
+}
+.container{
+    max-width: 1343px;
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid #000000; */
+
+}
+.menu-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+}
+.flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+    width:1343px;
+}
+.menu-flex nav ul{
+    font-family: 'Poppins';
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+}
+.menu-flex nav ul li:not(:last-child){
+    margin-right: 52px;
+}
+.menu-flex nav ul li:hover{
+    cursor: pointer;
+    color:#0052CC;
+    text-decoration: underline;
+}
+.menu-flex .logo{
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.menu-flex .logo span{
+    color:#3F69FF;
+}
+.menu-flex .profile-cart-wrapper a:first-child{
+    margin-right: 31px;
+}
+.menu-bar{
+    font-family: 'Poppins';
+    height: 62px;
+    background:#0052CC;
+}
+.menu-wrapper{
+    height: 62px;
+    align-items: center;
+    display: flex;   
+}
+.menu-bar .container .menu-wrapper a:last-child{
+    color:#fff;
+    margin: 0 0 5px 14px;
+}
+.input-wrapper{
+    display: inline-block;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+.input-wrapper span input{
+    width:389px;
+    height:42px;
+    padding-left: 48px;
+    border-radius: 6px;
+    border: 0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.products-board{
+padding-top: 88px;
+}
+.products-board h3{
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+.products-board .products{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+.products-board .products .items{
+    font-family: "Poppins";
+    text-transform: capitalize;
+    width: 260px;
+    height: 432px;
+    position: relative;
+}
+.products-board .products .img-wrapper{
+    width: 260px;
+    height: 340px;
+    padding: 12px 0;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 6px rgba(161, 161, 161, 0.25);
+    border-radius: 6px;
+
+}
+.products-board .products .bg-wrapper{
+    width: 152px;
+    height: 316px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.products-board .products .item-1 .bg-wrapper{
+    background-image: url("../images/image1.png");
+}
+.products-board .products .item-1 .bg-wrapper:hover{
+    background-image: url("../images/img1-hover.png");
+}
+.products-board .products .item-2 .bg-wrapper{
+    background-image: url("../images/image2.png");
+}
+.products-board .products .item-2 .bg-wrapper:hover{
+    background-image: url("../images/img2-hover.png");
+}
+.products-board .products .item-3 .bg-wrapper{
+    background-image: url("../images/image3.png");
+}
+.products-board .products .item-3 .bg-wrapper:hover{
+    background-image: url("../images/img3-hover.png");
+}
+.products-board .products .item-4 .bg-wrapper{
+    background-image: url("../images/image4.png");
+}
+.products-board .products .item-4 .bg-wrapper:hover{
+    background-image: url("../images/img4-hover.png");
+}
+.products-board .products .items .items-info{
+    padding: 14px 0;
+    position: relative;
+    border-bottom:1px solid #3F69FF;
+    margin-bottom: 15px;
+}
+.products-board .products .items .items-info .item-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.products-board .products .items .items-info .item-price{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+}
+.products-board .products .items .items-info .item-discount{
+    position: absolute;
+    right:80px;
+}
+.products-board .products .items .product-date{
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.products-board .products .items .item-more-btn{
+    font-weight: 500;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+footer{
+    font-family: 'Poppins';
+    height: 249px;
+    background: #0052CC;
+    margin-top: 233px;
+    padding-top: 50px;    
+}
+footer .container{
+    padding-bottom: 50px;
+}
+footer .container .logo{
+    float: left;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    word-spacing: -4px;
+    color:#fff;
+}
+footer .container .footer-menu{
+    margin-left: 273px;
+}
+footer .container .footer-menu ul:not(:last-child){
+    margin-right: 65px;
+}
+footer .container .footer-menu ul li{
+    margin-bottom: 13px;
+    list-style: none;
+}
+footer .container .footer-menu ul li::first-letter{
+    text-transform: capitalize;
+}
+footer .container .footer-menu ul li a {
+    color:#fff;
+}
+footer .container .subscribe-area{
+    position: absolute;
+    right:0;
+}
+footer .container .subscribe-area span{
+    position: relative;
+}
+footer .container .subscribe-area input{
+    width: 254px;
+    height: 40px;
+    padding-left: 18px;
+    border-radius: 6px;
+    border: 0;
+}
+footer .container .subscribe-area img{
+    position: absolute;
+    right:17px;
+    top:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+footer .container .subscribe-area p{
+    color:#fff;
+    width: 235px;
+    font-size: 12px;
+    margin-top: 26px;
+    line-height: 18px;
+}
+footer .container .social-icons{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+footer .container .social-icons a:not(:last-child){
+    margin-right: 17px;
+}
+
+
+
+
