@@ -166,6 +166,9 @@ a{
 .products-board .products .items .items-info .item-discount{
     position: absolute;
     right:80px;
+    color:#BD6161;
+    font-style: italic;
+    text-decoration: line-through;;
 }
 .products-board .products .items .product-date{
     font-size: 12px;
@@ -350,6 +353,7 @@ footer .container .social-icons a:not(:last-child){
 }
 .blog-container .news-board .news-content{
     max-width: 280px;
+    cursor: pointer;
 }
 .blog-container .news-board .news-content h4{
     margin-top: 14px;
@@ -357,8 +361,112 @@ footer .container .social-icons a:not(:last-child){
     line-height: 21px;
     font-weight: 500;
 }
+.blog-container .news-board .news-content h4:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
 .blog-container .news-board .news-content p{
     margin-top: 10px;
     font-size: 10px;
     line-height: 15px;
+}
+.contact-board{
+    font-family: 'Poppins';
+    max-width: 1310px;
+    width: 90%;
+    padding-top: 65px;
+    padding-bottom: 122px;
+    margin: 0 auto;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-board .map-img{
+    height: 562px;
+}
+.location-map{
+    margin-top: 100px;
+}
+.contact-board h2{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contact-board h3{
+    font-size: 18px;
+}
+.contact-board .contact-form input{
+    padding: 12px 16px;
+}
+.contact-board .contact-form input::placeholder{
+    color: rgba(64, 64, 64, 0.5);
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-board .contact-form label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-board .contact-form .form-first-line{
+    display: flex;
+}
+.contact-board .contact-form .form-first-line span:not(:last-child){
+    margin-right: 53px;
+}
+.contact-board .contact-form .form-first-line .name-input{
+    width: 264px;
+    height: 48px;
+    border: 1px solid #7E7E7E;
+    border-radius: 6px;
+}
+.contact-board .contact-form .email-input{
+    width: 581px;
+    height: 48px;
+    border: 1px solid #7E7E7E;
+    border-radius: 6px;
+}
+.contact-board .contact-form .phone-input{
+    width: 581px;
+    height: 48px;
+    border: 1px solid #7E7E7E;
+    border-radius: 6px;
+    padding-top: 15px;
+    padding-left: 60px;
+}
+
+.contact-board .contact-form form span a{
+    position: absolute;
+    left:10px;
+    height:48px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contact-board .contact-form form span a img{
+    vertical-align: top;
+    margin-top: -0.5px;
+}
+.contact-board .contact-form form #text{
+    width: 581px;
+    height: 133px;
+    border: 1px solid #7E7E7E;
+    border-radius: 6px;
+}
+.form-btn{
+    border: 0;
+    margin: 50px 0 0 186px;
+    width: 209px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color:#ffff;
+    background: #3F69FF;
+    border-radius: 6px;
+    cursor: pointer;
 }
