@@ -210,6 +210,9 @@ footer .container .footer-menu ul li{
     list-style: none;
     color:#fff;
 }
+footer .container .footer-menu ul li:hover{
+    text-decoration: underline;
+}
 footer .container .footer-menu ul li a{
     color:#fff;
 }
@@ -250,13 +253,12 @@ footer .container .social-icons a:not(:last-child){
     margin-right: 17px;
 }
 .about-container{
-    max-width:1213px;
-    width:80%;
-    height:858px;
+    max-width:1223px;
+    width:90%;
     margin: 0 auto;
-    border:1px solid green;
     font-family: 'Poppins';
     padding-top: 49px;
+    padding-bottom:46px;
 }
 .about-container h2{
     font-size: 26px;
@@ -266,7 +268,6 @@ footer .container .social-icons a:not(:last-child){
     margin-bottom: 30px;
 }
 .about-container .about-part-1{
-    border:1px solid aqua;
     position: relative;
 }
 .about-container .about-part-1 p{
@@ -281,4 +282,64 @@ footer .container .social-icons a:not(:last-child){
     position: absolute;
     top:65px;
     right: 0;
+}
+.about-container .about-part-2{
+    margin-top: 74px;
+    text-align: center;
+    line-height: 24px;
+}
+.about-container .about-part-3{
+    margin-top: 74px;
+
+}
+.about-container .about-part-3 .values-list{
+    max-width: 760px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-container .about-part-3 .values-list .value{
+    text-align: center;
+}
+.about-container .about-part-3 .values-list .value h4{
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 23px;
+    cursor:default;
+    font-size: 20px;
+    font-style: italic;
+}
+.blog-container{
+    max-width: 1262px;
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Poppins';
+    padding-top: 42px;
+}
+.blog-container .blog-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+}
+.blog-container .blog-board{
+    display: flex;
+    border: 1px solid;
+    margin-top: 24px;
+   
+}
+.blog-container .blog-board .blog-content{
+    padding-top: 30px;
+    margin-left: 64px;
+}
+.blog-container .blog-board .blog-content h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+.blog-container .blog-board .blog-content p{
+    max-width: 579px;
+    font-size: 20px;
+    line-height: 30px;
 }
