@@ -315,6 +315,7 @@ footer .container .social-icons a:not(:last-child){
     width: 90%;
     font-family: 'Poppins';
     padding-top: 42px;
+    padding-bottom: 51px;
 }
 .blog-container .blog-title{
     text-transform: uppercase;
@@ -323,8 +324,8 @@ footer .container .social-icons a:not(:last-child){
 }
 .blog-container .blog-board{
     display: flex;
-    border: 1px solid;
     margin-top: 24px;
+    margin-bottom: 103px;
    
 }
 .blog-container .blog-board .blog-content{
@@ -342,4 +343,22 @@ footer .container .social-icons a:not(:last-child){
     max-width: 579px;
     font-size: 20px;
     line-height: 30px;
+}
+.blog-container .news-board{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-container .news-board .news-content{
+    max-width: 280px;
+}
+.blog-container .news-board .news-content h4{
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+}
+.blog-container .news-board .news-content p{
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 15px;
 }
